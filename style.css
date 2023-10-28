@@ -1,0 +1,259 @@
+*{
+   margin: 0px;
+   padding: 0px; 
+   box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav bar css starts */
+nav{
+    background-color: #02918c;
+    padding: 15px;
+}
+
+nav .row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 30%;
+    text-align: right;
+}
+
+
+nav .manu{
+    width: 70%;
+    text-align: center;
+   
+}
+
+.manu li{
+    display: inline-block;
+}
+
+.manu li a{
+    font-size: 16px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 30px;
+    transition: 0.4s;
+}
+
+
+/* nav bar animation */
+
+.manu li > a:hover{
+    color: black;
+}
+
+/* nav bar animation ends */
+
+
+
+/* nav bar css ends */
+
+/* section 1 css starts */
+.section1{
+    background-image: url(section-1-bgi.jpg);
+    height:728px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.section1 .row{
+    height: 728px;
+    align-items: center;
+}
+
+.section1 h3{
+    font-size: 26px;
+    font-weight: 800px;
+    color: white;
+}
+
+
+.section1 .section-cnt{
+    width: 100%;
+    text-align: center;
+}
+
+ .section-cnt  h1{
+    font-size: 50px;
+    font-weight: 800px;
+    color: white;
+    letter-spacing: 20px;
+}
+
+ .section-cnt  p{
+    font-size: 17px;
+    color: white;
+
+}
+
+.section-cnt button{
+    padding: 10px;
+    background-color: #cfc91d;
+    color: black;
+    transition: 0.60s;
+}
+
+
+.section-cnt button a {
+    font-size: 14px;
+    font-weight: 800px;
+    transition: 0.60s;
+}
+
+.section-cnt button:hover{
+    background: #56ab2f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border-radius: 7px;
+   
+}
+
+.section-cnt button a:hover{
+    color:white;
+}
+
+
+/* section 1 css ends */
+
+
+/* about card css starts */
+#aboutcard{
+    padding: 98px 0px;
+    text-align: center;
+}
+
+
+#aboutcard  h2{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800px;
+    
+}
+
+
+#ab.aboutcard {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #888;
+}
+
+#aboutcard #p2 span{
+    font-size: 20px;
+    font-weight: 800
+     
+    
+}
+
+#aboutcard #p2 span{
+    color: #888;
+}
+    
+
+.aboutcard{
+    width: 25%;
+    color: #888;
+    border-right: 1px solid #888;
+}
+
+.aboutcard .head4{
+    color: #02918c;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    transition: 0.4s;
+}
+
+.aboutcard .img2{
+    width: 50px;
+    padding-bottom: 5px;
+}
+
+.aboutcard .head4:hover{
+    color: black;
+}
+/* about card css ends */
+
+
+/* section 2 starts */
+
+
+.section2{
+
+padding-left: 100px;
+    background-color: #f0f0e8;
+}
+
+.section2 .sec2r1 h3{
+font-size: 46px;
+font-weight: 800;
+color: #02918c;
+
+}
+
+
+.section2 #sec2p1{
+    color: #888;
+    display: block;
+}
+
+
+.sec2r1 .aboutcard2{
+    width: 50%;
+}
+
+.aboutcard2img{
+    width: 40px;
+    padding-top: 30px;
+}
+
+.row .aboutcard2  .aboutcard2head{
+    font-size: 20px;
+     font-weight: 800;
+     color: #888;
+     padding-top: 10px;
+}
+
+.aboutcard2 .aboutcard2pera{
+    color: #888;
+   
+}
+
+
+
+
+.aboutcard2{
+    position: relative;
+}
+/* section 2 ends */
